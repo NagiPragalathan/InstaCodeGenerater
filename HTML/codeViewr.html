@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            font-family: cursive;
+            color: powderblue;
+        }
+        .text2{
+            width: 98%;
+            height: 88%;
+            outline: none;
+            border-radius: 27px;
+            resize: none;
+            overflow: scroll;
+            padding: 19px;
+            margin: auto;
+            background-color: black;
+            color: aliceblue;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Code Point</h1>
+    <pre class="text2" id="text1">
+
+    </pre>
+</body>
+
+<script>
+    var code = localStorage.getItem("pycode")
+    localStorage.removeItem("pycode")
+    let result = code.split("\n")
+    for(i=0;i<result.length;i++){
+        result[i] = (i+1)+" &emsp; "+result[i];
+    }
+    document.getElementById("text1").innerHTML = result.join("</br>");
+</script>
+
+</html>

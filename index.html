@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        width: 98%;
+        height: 100%;
+        display: flex;
+        background-color: #5f6fbe;
+        flex-direction: column;
+        position: relative;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        background-image: url("images/Home.gif");
+        width: 389px;
+        position: inherit;
+        height: inherit;
+        background-repeat: no-repeat;
+    }
+    .name{
+        position: absolute;
+        left: -12px;
+        top: -10px;
+        display: flex;
+        width: 96%;
+        height: 52px;
+        border-radius: 0px 0px 34px 0px;
+        background-color: #5f6fbe;
+        box-shadow: -4px -1px 20px 0px black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+    }
+    .name h1{
+        color: #a4fff7;
+        font-family: cursive;
+        margin-left: 17px;
+    }
+    .title{
+        position: absolute;
+        left: 4px;
+    }
+    .title h1{
+        font-family: cursive;
+        font-size: 26px;
+        font-weight: 900;
+        text-transform: uppercase;
+        -webkit-text-stroke-width: medium;
+    }
+    .title span{
+        font-size: 61px;
+        font-family: none;
+        color: tomato;
+    }
+
+/* 749 */
+
+    .style{
+        position: absolute;
+        bottom: -13px;
+        height: 44%;
+        background-color: #828fd2;
+        width: 92%;
+        border-radius: 0px 351px 0px 0px;
+        left: -9px;
+        z-index: -1;
+    }
+    .contant{
+        position: absolute;
+        bottom: 171px;
+        left: 0px;
+        width: 74%;
+        font-family: cursive;
+        color: aliceblue;
+    }
+    @media screen and (max-width:512px) {
+        .contant{
+            position: absolute;
+            bottom: 128px;
+            left: 0px;
+            font-family: cursive;
+            color: aliceblue;
+        }
+    }
+    .btn{
+        position: absolute;
+        width: 155px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        bottom: 57px;
+        background: linear-gradient(45deg, #3211c3, #09b9ff);
+    }
+</style>
+<body>
+        <div class="img"></div>
+        <nav class="name"><h1>Bug Breakers</h1></nav>
+        <div class="title"><h1>Hi There <span>!</span></h1></div>
+        <div class="contant">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores asperiores beatae tenetur, neque fuga quibusdam provident maxime iusto quas? Porro totam magni quas cum facilis excepturi explicabo corrupti. Voluptatem, eius.</div>
+        <button class="btn" onclick="move()">Visite</button>    
+        <div class="style"></div>
+</body>
+<script>
+    function move(a){
+            window.location.href = "Pages/Day1.html"
+    }
+</script>
+</html>
