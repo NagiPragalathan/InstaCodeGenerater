@@ -581,7 +581,7 @@ hr{
         align-content: center;
         position: relative;
         width: 86%;
-        height: 227px;
+        height: fit-content;
         justify-content: center;
         align-items: center;
         margin-top: 106px;
