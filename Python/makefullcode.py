@@ -9,16 +9,17 @@ counts = {"1":15,"2":4,"3":5,"4":2}
 type_=[]
 stepc = {}
 
-input_str = """Enna maratha...enna maratha❤‍🩹...
-sathiyama naa unnil velutha...enna maratha...
-enna maratha sathiyamaaa❤‍🩹... Na unnil velutha
-　　　　　／＞　　フ
-　　　　　| 　_　 _ l
-　 　　　／` ミ＿xノ
-　　 　 /　　　❤‍🩹 |
-　　　 /　 ヽ　　 ﾉ
- Ooo eru minkal oru odaiel thaneeril ennai tzhuka❤️
-Un kaathal... En kaaviyam unnodu kai korka🫴🏻🫳🏻""".split("\n")
+input_str = """She Tells Him Ooh love ❤️
+no one's ever gonna hurt❤‍🩹 you love 
+i am gonna give you all my love💝
+nobody matters like you🙂
+┻┳|―-∩
+┳┻|        ヽ
+┻┳|    ●    |
+┳┻|▼) _ノ
+┻┳|￣    )
+┳ﾐ(￣ ／
+┻┳T￣|""".split("\n")
 
 
 def MakeCode(String):
@@ -96,7 +97,7 @@ store = MakeCode(input_str)
 Output = "</br>".join(input_str)
 FullCode = colors(HTML_Aliner(store))
 Step = Steps()
-Maker(Output,FullCode,Step,store,"Day1","Video_Title","Iframe")
+Maker(Output,FullCode,Step,store,"Day4","She Tells Him Ooh love song coding version","Iframe")
 print(store)
     
 # #GUI  Window
