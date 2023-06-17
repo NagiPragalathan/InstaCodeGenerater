@@ -2,10 +2,11 @@
 
 <div align="center">
     
-![MedCare Logo](https://instasize.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fmunkee%2Fimage%2Fupload%2Fv1675319063%2Finstasize-website%2Flearn%2Finstagram-paint-logo.webp&?w=100)
-
+    
+<img style="width:100px" src="https://instasize.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fmunkee%2Fimage%2Fupload%2Fv1675319063%2Finstasize-website%2Flearn%2Finstagram-paint-logo.webp&w=3840&q=75" alt="MedCare Logo">
+    
+    
 </div>
-
 
 [WebForInsta](https://github.com/NagiPragalathan/WebForInsta) is a static website designed to manage codes and provide an interactive experience for users. The website focuses on showcasing videos with coding lyrics, specifically tailored for Instagram.
 
