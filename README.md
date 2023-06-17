@@ -2,9 +2,10 @@
 
 <div align="center">
     
-![MedCare Logo]([https://img.freepik.com/free-vector/hospital-logo-design-vector-medical-cross_53876-136743.jpg?w=100](https://instasize.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fmunkee%2Fimage%2Fupload%2Fv1675319063%2Finstasize-website%2Flearn%2Finstagram-paint-logo.webp&w=3840&q=75))
+![MedCare Logo](https://instasize.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fmunkee%2Fimage%2Fupload%2Fv1675319063%2Finstasize-website%2Flearn%2Finstagram-paint-logo.webp&w=3840&q=75)
 
 </div>
+
 
 [WebForInsta](https://github.com/NagiPragalathan/WebForInsta) is a static website designed to manage codes and provide an interactive experience for users. The website focuses on showcasing videos with coding lyrics, specifically tailored for Instagram.
 
